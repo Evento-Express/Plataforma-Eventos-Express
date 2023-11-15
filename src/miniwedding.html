@@ -28,93 +28,57 @@
         <ul class="menu" id="menu" role="menu">
           <li><a href="./index.html">Início</a></li>
           <li><a href="./sobre.html">Sobre</a></li>
+          <li><a href="./contato.html">Contato</a></li>
           <li><a href="./perfil.html">Perfil</a></li>
           <li><a href="./login.html">Login</a></li>
         </ul>
       </nav>
     </header>
 
-    <div class="container-form">
-      <form>
-        <div class="form-group">
-          <label for="data">Data do Evento:</label>
-          <input type="date" class="form-control" id="data" name="data" required>
-        </div>
-    
-        <div class="form-group">
-          <label for="local">Local do Evento:</label>
-          <input type="text" class="form-control" id="local" name="local" required>
-        </div>
-    
-        <div class="form-group">
-          <label for="convidados">Número de Convidados:</label>
-          <select class="form-control" id="convidados" name="convidados" required>
-            <option value="">Selecione o número de convidados</option>
-            <option value="50">50</option>
-            <option value="50">100</option>
-            <option value="50">200</option>
-          </select>
-        </div>
-    
-        <button class="botao btn-enviar" 
-        type="submit">Enviar</button>
-      </form>
-    </div> 
-    
-    <div class="title">
-      <h2 class="main-title">Escolha o Evento</h2>    
-    </div>
-
     <main class="container-cards">
-      <section class="card card-casamento">
+      <section class="card card-orloff">
         <div class="container-icons">
           <figure>
-            <img class="icon" src="./img/home/i-casamento.png">
+            <img class="icon" src="./img/casamento/MW-Orloff.png">
           </figure>
         </div>
-        <h3>Casamento</h3>
-        <a href="./casamento.html">
-        <button class="botao">Veja Mais</button>
-        </a>
-      </section>
-
-      <section class="card card-corporativo">
-        <div class="container-icons">
-            <figure>
-              <img class="icon" src="./img/home/i-corporativo.png">
-            </figure>
+        <h3>Espaço Orloff</h3>
+        <div class="button-container">
+          <button class="botao"><a href="./casamento/miniwedding/pacoteOrloff.html">Pacote</a></button>
+          <button class="botao"><a href="./casamento/miniwedding/decoracaoOrloff.html">Decoração</a></button>
+          <button class="botao"><a href="./casamento/miniwedding/cardapioOrloff.html">Cardápio</a></button>
         </div>
-        <h3>Corporativo</h3>
-        <a href="./corporativo.html">
-          <button class="botao">Veja Mais</button>
-        </a> 
-      </section>
+      </section>    
 
-      <section class="card card-debutante">
+      <section class="card card-lefrance">
         <div class="container-icons">
-            <figure>
-                <img class="icon" src="./img/home/i-debutante.png">
-            </figure>
+          <figure>
+            <img class="icon" src="./img/casamento/MW-LeFrance.png">
+          </figure>
         </div>
-        <h3>Debutante</h3>
-        <a href="./debutante.html">
-          <button class="botao">Veja Mais</button>
-        </a>
+        <h3>Espaço Le France</h3>
+        <div class="button-container">
+          <button class="botao"><a href="./casamento/miniwedding/pacoteLefrance.html">Pacote</a></button>
+          <button class="botao"><a href="./casamento/miniwedding/decoracaoLefrance.html">Decoração</a></button>
+          <button class="botao"><a href="./casamento/miniwedding/cardapioLefrance.html">Cardápio</a></button>
+        </div>
       </section>
-
-      <section class="card card-aniversario">
-        <div class="container-icons">
-            <figure>
-                <img class="icon" src="./img/home/i-aniversario.png">
-            </figure>
+    
+      <section class="card card-felicita">
+        <div class="container-icons">                
+          <figure>
+            <img class="icon" src="./img/casamento/MW-Felicita.png">
+          </figure>
         </div>
-        <h3>Aniversário</h3>
-        <a href="./aniversario.html">
-          <button class="botao">Veja Mais</button>
-        </a>
+        <h3>Espaço Felicitá</h3>
+        <div class="button-container">
+          <button class="botao"><a href="./casamento/miniwedding/pacoteFelicita.html">Pacote</a></button>
+          <button class="botao"><a href="./casamento/miniwedding/decoracaoFelicita.html">Decoração</a></button>
+          <button class="botao"><a href="./casamento/miniwedding/cardapioFelicita.html">Cardápio</a></button>
+        </div>
       </section>
     </main>
-    
+           
     <footer>
       <section class="footer">
         <div class="about">
@@ -141,5 +105,10 @@
         </div>
       </section>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
   </body>
 </html>

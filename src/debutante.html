@@ -9,7 +9,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&family=Lexend&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script defer src="./js/script.js"></script>
   </head>
   <body>
@@ -28,90 +27,82 @@
         <ul class="menu" id="menu" role="menu">
           <li><a href="./index.html">Início</a></li>
           <li><a href="./sobre.html">Sobre</a></li>
+          <li><a href="./contato.html">Contato</a></li>
           <li><a href="./perfil.html">Perfil</a></li>
           <li><a href="./login.html">Login</a></li>
         </ul>
       </nav>
     </header>
 
-    <div class="container-form">
-      <form>
-        <div class="form-group">
-          <label for="data">Data do Evento:</label>
-          <input type="date" class="form-control" id="data" name="data" required>
-        </div>
-    
-        <div class="form-group">
-          <label for="local">Local do Evento:</label>
-          <input type="text" class="form-control" id="local" name="local" required>
-        </div>
-    
-        <div class="form-group">
-          <label for="convidados">Número de Convidados:</label>
-          <select class="form-control" id="convidados" name="convidados" required>
-            <option value="">Selecione o número de convidados</option>
-            <option value="50">50</option>
-            <option value="50">100</option>
-            <option value="50">200</option>
-          </select>
-        </div>
-    
-        <button class="botao btn-enviar" 
-        type="submit">Enviar</button>
-      </form>
-    </div> 
-    
-    <div class="title">
-      <h2 class="main-title">Escolha o Evento</h2>    
-    </div>
-
     <main class="container-cards">
-      <section class="card card-casamento">
-        <div class="container-icons">
-          <figure>
-            <img class="icon" src="./img/home/i-casamento.png">
-          </figure>
-        </div>
-        <h3>Casamento</h3>
-        <a href="./casamento.html">
-        <button class="botao">Veja Mais</button>
-        </a>
+      <section class="card card-caballa">
+          <div class="container-icons">
+              <figure>
+                <img class="icon" src="./img/debutante/Caballa.PNG" id="img">
+              </figure>
+          </div>
+          <h3>Espaço Caballa</h3>
+          <div class="button-container">
+            <button class="botao"><a href="./debutante/pacoteCaballa.html">Pacote</a></button>
+            <button class="botao"><a href="./debutante/decoracaoCaballa.html">Decoração</a></button>
+            <button class="botao"><a href="./debutante/cardapioCaballa.html">Cardápio</a></button>
+          </div>
       </section>
 
-      <section class="card card-corporativo">
+      <section class="card card-partello">
         <div class="container-icons">
             <figure>
-              <img class="icon" src="./img/home/i-corporativo.png">
+              <img class="icon" src="./img/debutante/partello.PNG" id="img">
             </figure>
         </div>
-        <h3>Corporativo</h3>
-        <a href="./corporativo.html">
-          <button class="botao">Veja Mais</button>
-        </a> 
+        <h3>Salão Partello</h3>
+        <div class="button-container">
+          <button class="botao"><a href="./debutante/pacotePartello.html">Pacote</a></button>
+          <button class="botao"><a href="./debutante/decoracaoPartello.html">Decoração</a></button>
+          <button class="botao"><a href="./debutante/cardapioPartello.html">Cardápio</a></button>
+        </div>
       </section>
 
-      <section class="card card-debutante">
+      <section class="card card-eventos">
         <div class="container-icons">
             <figure>
-                <img class="icon" src="./img/home/i-debutante.png">
+              <img class="icon" src="./img/debutante/eventos.PNG" id="img">
             </figure>
         </div>
-        <h3>Debutante</h3>
-        <a href="./debutante.html">
-          <button class="botao">Veja Mais</button>
-        </a>
+        <h3>Coliseu Eventos</h3>
+        <div class="button-container">
+          <button class="botao"><a href="./debutante/pacoteColiseu.html">Pacote</a></button>
+          <button class="botao"><a href="./debutante/decoracaoColiseu.html">Decoração</a></button>
+          <button class="botao"><a href="./debutante/cardapioColiseu.html">Cardápio</a></button>
+        </div>
       </section>
 
-      <section class="card card-aniversario">
+      <section class="card card-monazetti">
         <div class="container-icons">
             <figure>
-                <img class="icon" src="./img/home/i-aniversario.png">
+              <img class="icon" src="./img/debutante/monazetti.PNG" id="img">
             </figure>
         </div>
-        <h3>Aniversário</h3>
-        <a href="./aniversario.html">
-          <button class="botao">Veja Mais</button>
-        </a>
+        <h3>Monazetti Festas e Eventos</h3>
+        <div class="button-container">
+          <button class="botao"><a href="./debutante/pacoteMonazetti.html">Pacote</a></button>
+          <button class="botao"><a href=".//debutante/decoracaoMonazetti.html">Decoração</a></button>
+          <button class="botao"><a href="./debutante/cardapioMonazetti.html">Cardápio</a></button>
+        </div>
+      </section>
+
+      <section class="card card-minerva">
+        <div class="container-icons">
+            <figure>
+              <img class="icon" src="./img/debutante/minerva.PNG" id="img">
+            </figure>
+        </div>
+        <h3>Espaço Minerva</h3>
+        <div class="button-container">
+          <button class="botao"><a href="./debutante/pacoteMinerva.html">Pacote</a></button>
+          <button class="botao"><a href="./debutante/decoracaoMinerva.html">Decoração</a></button>
+          <button class="botao"><a href="./debutante/cardapioMinerva.html">Cardápio</a></button>
+        </div>
       </section>
     </main>
     

@@ -28,93 +28,63 @@
         <ul class="menu" id="menu" role="menu">
           <li><a href="./index.html">Início</a></li>
           <li><a href="./sobre.html">Sobre</a></li>
+          <li><a href="./contato.html">Contato</a></li>
           <li><a href="./perfil.html">Perfil</a></li>
           <li><a href="./login.html">Login</a></li>
         </ul>
       </nav>
     </header>
-
-    <div class="container-form">
-      <form>
-        <div class="form-group">
-          <label for="data">Data do Evento:</label>
-          <input type="date" class="form-control" id="data" name="data" required>
+    <main>
+      <section class="formulario-sessao">
+        <div class="container-form">
+          <div class="container mt-5">
+            <form>
+                <div class="titulo">
+                    <h2>Pacote Mariage </h2><br>
+                </div>
+                <div class="form-group">
+                    <label for="data">Data do Evento:</label>
+                    <input type="date" class="form-control" id="data" required>
+                </div>
+            
+                <div class="form-group">
+                    <label for="local">Local:</label>
+                    <input type="text" class="form-control" id="local"value="Espaço Mariage" readonly>
+                </div>
+            
+                <div class="form-group">
+                    <label for="decoracao">Decoração:</label>
+                    <select class="form-control" id="decoracao">
+                    <option value="floral">Floral</option>
+                    <option value="vermelho">Floral Rosa</option>
+                    <option value="lilas">Floral Tradicional</option>
+                    </select>
+                </div>
+            
+                <div class="form-group">
+                    <label for="cardapio">Cardápio:</label>
+                    <select class="form-control" id="cardapio">
+                    <option value="americano">Massas</option>
+                    <option value="fingerFood">Risotos Brasileiros</option>
+                    <option value="happyHour">Churrasco</option>
+                    </select>
+                </div>
+            
+                <div class="form-group">
+                    <label for="incluso">Incluso:</label>
+                    <input type="text" class="form-control" id="incluso" value="Buffet, Decoração exclusiva, Banda e Pista DJ" readonly>
+                </div>
+            
+                <div class="form-group">
+                    <label for="total">Valor Total:</label>
+                    <input type="text" class="form-control" id="total" value="R$ 75.000" readonly><br>
+                </div>            
+                <button type="button" class="botao btn-enviar"><a href="./carrinho.html">Adicionar ao Carrinho</a></button><br>
+              </form>
+          </div>  
         </div>
-    
-        <div class="form-group">
-          <label for="local">Local do Evento:</label>
-          <input type="text" class="form-control" id="local" name="local" required>
-        </div>
-    
-        <div class="form-group">
-          <label for="convidados">Número de Convidados:</label>
-          <select class="form-control" id="convidados" name="convidados" required>
-            <option value="">Selecione o número de convidados</option>
-            <option value="50">50</option>
-            <option value="50">100</option>
-            <option value="50">200</option>
-          </select>
-        </div>
-    
-        <button class="botao btn-enviar" 
-        type="submit">Enviar</button>
-      </form>
-    </div> 
-    
-    <div class="title">
-      <h2 class="main-title">Escolha o Evento</h2>    
-    </div>
-
-    <main class="container-cards">
-      <section class="card card-casamento">
-        <div class="container-icons">
-          <figure>
-            <img class="icon" src="./img/home/i-casamento.png">
-          </figure>
-        </div>
-        <h3>Casamento</h3>
-        <a href="./casamento.html">
-        <button class="botao">Veja Mais</button>
-        </a>
-      </section>
-
-      <section class="card card-corporativo">
-        <div class="container-icons">
-            <figure>
-              <img class="icon" src="./img/home/i-corporativo.png">
-            </figure>
-        </div>
-        <h3>Corporativo</h3>
-        <a href="./corporativo.html">
-          <button class="botao">Veja Mais</button>
-        </a> 
-      </section>
-
-      <section class="card card-debutante">
-        <div class="container-icons">
-            <figure>
-                <img class="icon" src="./img/home/i-debutante.png">
-            </figure>
-        </div>
-        <h3>Debutante</h3>
-        <a href="./debutante.html">
-          <button class="botao">Veja Mais</button>
-        </a>
-      </section>
-
-      <section class="card card-aniversario">
-        <div class="container-icons">
-            <figure>
-                <img class="icon" src="./img/home/i-aniversario.png">
-            </figure>
-        </div>
-        <h3>Aniversário</h3>
-        <a href="./aniversario.html">
-          <button class="botao">Veja Mais</button>
-        </a>
       </section>
     </main>
-    
     <footer>
       <section class="footer">
         <div class="about">
@@ -141,5 +111,9 @@
         </div>
       </section>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
   </body>
 </html>
