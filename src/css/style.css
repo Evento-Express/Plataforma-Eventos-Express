@@ -709,3 +709,9 @@
     margin: auto;
   }
 
+  .textosFatec img {
+    width: 800px; /* Tamanho da imagem a ser ajustado conforme necessário */
+    height: 300px;
+    border-radius: 0%;
+    object-fit:scale-down
+}
