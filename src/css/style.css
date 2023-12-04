@@ -543,6 +543,32 @@
         grid-template-columns: repeat(1, 1fr); /* Mostrar 1 coluna em telas muito pequenas */
     }
 
+    .container-sobre {
+      padding: 5px;
+    }
+  
+    .sobre {
+      padding: 5px;
+      max-width: 100%;
+    }
+  
+    .sobre h2 {
+      font-size: 20px;
+    }
+  
+    .sobre p {
+      font-size: 14px;
+    }
+  
+    .sobre li {
+      font-size: 14px;
+    }
+  
+    .textosFatec img {
+      width: 100%;
+      height: auto;
+    }
+
   }
   .button-container {
     display: flex; 
@@ -625,6 +651,25 @@
         font-size: 12px;
         white-space: nowrap;
       }
+
+      .container-sobre {
+        padding: 10px;
+      }
+    
+      .sobre {
+        padding: 10px;
+        max-width: 100%;
+      }
+    
+      .sobre img {
+        width: 100%;
+        height: auto;
+      }
+    
+      .textosFatec img {
+        width: 100%;
+        height: auto;
+      }
     }
 
     .form{
@@ -636,6 +681,7 @@
       justify-content: center;
       align-items: center;
       height: 100%; /* Adicionei isso para garantir que a div preencha completamente a altura */
+      
     }
 
     .container-sobre {
@@ -661,15 +707,19 @@
   }
   
   .sobre img {
-      width: 200px; /* Tamanho da imagem a ser ajustado conforme necessário */
-      height: 200px;
-      border-radius: 50%;
-      object-fit: cover;
+    width: 200px; /* Tamanho da imagem a ser ajustado conforme necessário */
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
   }
   
+  .sobre .imagemFatecs a {
+    color: #6E6AAA !important;
+  }
+
   .sobre h2 {
-      font-size: 24px;
-      padding: 10px;
+    font-size: 24px;
+    padding: 10px;
   }
   
   .sobre p {
